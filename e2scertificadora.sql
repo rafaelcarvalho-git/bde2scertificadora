@@ -6,6 +6,9 @@ CREATE TABLE usuarios (
     usuario varchar(50) NOT NULL unique, 
     senha varchar(255) NOT NULL, 
     privilegio varchar(50) NOT NULL, 
+    comissao int NOT NULL,
+    telefone varchar(12) NOT NULL,
+    email varchar(100) NOT NULL,
     primary key(id)
 );
 
